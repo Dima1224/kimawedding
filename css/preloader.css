@@ -17,7 +17,7 @@
 }
 
 .background_image{
-	background-image:url(http://placehold.it/1600x1067); 
+	background-image:url(../images/preloader-bg.JPG); 
 	background-position:center center; 
 	background-size:cover; 
 }

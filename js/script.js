@@ -315,8 +315,10 @@
 			$.supersized({
 				slides  :  	
 				[ 
-					{ image : 'http://placehold.it/1600x1067' },
-					{ image : 'http://placehold.it/1600x1067' },
+					//{ image : 'images/slideshow1.JPG' },
+					{ image : 'images/slideshow2.JPG' },
+					//{ image : 'images/slideshow3.JPG' },
+					//{ image : 'images/slideshow4.JPG' }
 				],
 				horizontal_center : 0,
 				vertical_center : 0,
@@ -328,7 +330,7 @@
 		// COUNTDOWN
 		//===================================================================================
 		var theday = new Date();
-		theday = new Date(2015, 0, 12);
+		theday = new Date(2016, 6, 9);
 		$('#countdown').countdown({until: theday, format: 'WDHMS'});
 
 		
