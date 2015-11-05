@@ -567,7 +567,7 @@ p a:hover{
 }
 
 #gallery-main-photo{
-	background:url(http://placehold.it/1600x712);
+	background:url(../images/gallery-main.jpg);
 	background-size:cover;
 	background-attachment:fixed;
 	background-position:top center;

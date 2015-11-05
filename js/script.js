@@ -315,13 +315,19 @@
 			$.supersized({
 				slides  :  	
 				[ 
-					//{ image : 'images/slideshow1.JPG' },
-					{ image : 'images/slideshow2.JPG' },
-					//{ image : 'images/slideshow3.JPG' },
-					//{ image : 'images/slideshow4.JPG' }
+					{ image : 'images/slideshow/slideshow1.JPG' },
+					{ image : 'images/slideshow/slideshow2.JPG' },
+					{ image : 'images/slideshow/slideshow3.JPG' },
+					{ image : 'images/slideshow/slideshow4.JPG' },
+					{ image : 'images/slideshow/slideshow5.JPG' },
+					{ image : 'images/slideshow/slideshow6.JPG' },
+					{ image : 'images/slideshow/slideshow7.JPG' },
+					{ image : 'images/slideshow/slideshow8.JPG' },
+					{ image : 'images/slideshow/slideshow9.JPG' },
+					{ image : 'images/slideshow/slideshow10.JPG' }
 				],
-				horizontal_center : 0,
-				vertical_center : 0,
+				horizontal_center : 1,
+				vertical_center : 1,
 			});
 		});
 		
@@ -664,20 +670,14 @@
 			$("#location").show(0,function(){
 				$("#location_map").gMap({
              		maptype: google.maps.MapTypeId.ROADMAP, 
-             		zoom: 14, 
+             		zoom: 13, 
              		markers: 
 			 			[
-			 				{
-                 				latitude: -33.898361, 
-                 				longitude: 151.175290, 
-                 				html: "<strong>The Ceremony</strong><br/>Manalia Tower Floor 24 Room 256<br/>Anfix Street ST01<br/><strong>GPS:</strong> -33.898361, 151.175290", 
-                				popup: true,               
-							},
 							{
-                				latitude: -33.905485, 
-                 				longitude: 151.169131, 
-                 				html: "<strong>Wedding Party</strong><br/>Forine Restaurant<br/>Rose Street ST08<br/><strong>GPS:</strong> -33.905485, 151.169131", 
-                 				popup: true,               
+                				latitude: 42.247560,
+                 				longitude: -87.891323, 
+                 				html: "<strong>Reid Hall at Armour House</strong><br/>1500 W Kennedy Rd<br/>Lake Forest, IL 60045<br/>", 
+                 				popup: false
                     		} 
                 		], 
              		panControl: true, 
@@ -685,8 +685,8 @@
              		mapTypeControl: true, 
              		scaleControl: true, 
             		streetViewControl: true, 
-             		scrollwheel: false, 
-             		styles: [ { "stylers": [ { "hue": "#bb5844" }, { "gamma": 1 }, { "saturation": -60 } ] } ], 
+             		scrollwheel: true, 
+             		//styles: [ { "stylers": [ { "hue": "#bb5844" }, { "gamma": 1 }, { "saturation": -60 } ] } ], 
              		onComplete: function() {
                  		// Resize and re-center the map on window resize event
                  		var gmap = $("#location_map").data('gmap').gmap;
