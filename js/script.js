@@ -315,16 +315,16 @@
 			$.supersized({
 				slides  :  	
 				[ 
-					{ image : 'images/slideshow/slideshow1.JPG' },
-					{ image : 'images/slideshow/slideshow2.JPG' },
-					{ image : 'images/slideshow/slideshow3.JPG' },
+					{ image : 'images/slideshow/slideshow1.jpg' },
+					{ image : 'images/slideshow/slideshow2.jpg' },
+					{ image : 'images/slideshow/slideshow3.jpg' },
 					//{ image : 'images/slideshow/slideshow4.JPG' },
-					{ image : 'images/slideshow/slideshow5.JPG' },
-					{ image : 'images/slideshow/slideshow6.JPG' },
-					{ image : 'images/slideshow/slideshow7.JPG' },
-					{ image : 'images/slideshow/slideshow8.JPG' },
-					{ image : 'images/slideshow/slideshow9.JPG' },
-					{ image : 'images/slideshow/slideshow10.JPG' }
+					{ image : 'images/slideshow/slideshow5.jpg' },
+					{ image : 'images/slideshow/slideshow6.jpg' },
+					{ image : 'images/slideshow/slideshow7.jpg' },
+					{ image : 'images/slideshow/slideshow8.jpg' },
+					{ image : 'images/slideshow/slideshow9.jpg' },
+					{ image : 'images/slideshow/slideshow10.jpg' }
 				],
 				horizontal_center : 1,
 				vertical_center : 1,
