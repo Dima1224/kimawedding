@@ -1,7 +1,0 @@
-gsutil -m rsync -r -d "c:\Users\Dima\Documents\My Dropbox\dev-work\wedding-site\nikh" gs://ohai.kimawedding.com
-
-gsutil -m rsync -r -d gs://ohai.kimawedding.com gs://www.kimawedding.com
-
-gsutil -m setmeta -r -h cache-control:no-cache gs://ohai.kimawedding.com/
-
-gsutil -m acl -r ch -u AllUsers:R gs://ohai.kimawedding.com/*
